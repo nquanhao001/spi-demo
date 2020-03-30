@@ -1,10 +1,10 @@
 package com.niugege.service;
 
-import com.ggj.ecommerce.bizspi.annotation.BizSpi;
-import com.ggj.ecommerce.bizspi.api.SpiConfig;
 import com.google.common.collect.Lists;
 import com.niugege.domain.InDTO;
 import com.niugege.domain.OutDTO;
+import com.niugege.spi.annotation.BizSpi;
+import com.niugege.spi.api.SpiConfig;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.List;
