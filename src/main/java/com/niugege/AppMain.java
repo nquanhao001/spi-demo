@@ -1,6 +1,6 @@
 package com.niugege;
 
-import com.ggj.ecommerce.bizspi.spring.scan.SpiFunctionPointScan;
+import com.niugege.spi.spring.scan.SpiFunctionPointScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.SpringBootConfiguration;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
@@ -14,13 +14,6 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 @SpiFunctionPointScan
 public class AppMain{
-
-
-    /*@Override
-    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-        return application.sources(AppMain.class);
-    }*/
-
     public static void main(String[] args) {
         System.setProperty("app.name", "spi-demo");
         SpringApplication.run(AppMain.class, args);
